@@ -1,0 +1,10 @@
+import time
+import webbrowser as web
+
+url=input('请输入URL： ')
+n=int(input('请输入获取的次数： '))
+
+for i in range(n):
+ web.open(url)
+ print (web.get())
+ time.sleep(2)
